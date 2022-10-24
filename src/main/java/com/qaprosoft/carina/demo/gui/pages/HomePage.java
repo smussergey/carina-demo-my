@@ -45,7 +45,8 @@ public class HomePage extends AbstractPage {
     public HomePage(WebDriver driver) {
         super(driver);
         setUiLoadedMarker(newsColumn);
-        setPageAbsoluteURL(R.CONFIG.get(Configuration.Parameter.URL.getKey()));
+        setPageAbsoluteURL(R.CONFIG.get(Configuration
+                .Parameter.URL.getKey()));
     }
 
     public FooterMenu getFooterMenu() {
